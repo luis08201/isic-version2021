@@ -124,7 +124,22 @@ MEDIA QUERIES
     width: 300px;
   }
 }
+@media screen and (max-width: 375px) {
+  .main__container {
+    margin: 1.875rem 1.5rem 0;
+  }
+  .navbar__menu {
+    flex-direction: column;
+  }
+  .navbar__links {
+    text-align: center;
+  }
+  .navbar__links:nth-child(2):hover .navbar__cursos {
+    display: none;
+  }
+}
 /*
+
 MAIN CAROUSEL
 */
 .main__carousel {
@@ -582,69 +597,65 @@ under__construction
 }
 @media screen and (max-width: 1200px) {
   .float_text {
-  position: absolute;
-  top: 0;
-  left: 25%;
- 
-}
+    position: absolute;
+    top: 0;
+    left: 25%;
+  }
 }
 @media screen and (max-width: 1024px) {
   .float_text {
-  position: absolute;
-  top: 0;
-  left: 18%;
- 
-}
+    position: absolute;
+    top: 0;
+    left: 18%;
+  }
 }
 @media screen and (max-width: 890px) {
   .float_text {
-  position: absolute;
-  top: 0;
-  left: 13%;
- 
-}
+    position: absolute;
+    top: 0;
+    left: 13%;
+  }
 }
 @media screen and (max-width: 708px) {
   .float_text {
-  position: absolute;
-  top: 0;
-  left: 9%; 
-}
+    position: absolute;
+    top: 0;
+    left: 9%;
+  }
 }
 @media screen and (max-width: 580px) {
   .float_text {
-  position: absolute;
-  top: 0;
-  left: 9%; 
-}
-.under__banner {
-  width: 250px;
-  height: 250px; 
-  border-radius: 50%;
-  max-width: 100%;
-}
-.under__img {  
-  width: 250px;
-  height: 350px;
-}
+    position: absolute;
+    top: 0;
+    left: 9%;
+  }
+  .under__banner {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    max-width: 100%;
+  }
+  .under__img {
+    width: 250px;
+    height: 350px;
+  }
 }
 @media screen and (max-width: 460px) {
-.under__banner {
-  width: 150px;
-  height: 150px; 
-  border-radius: 50%;
-  max-width: 100%;
-}
-.under__img {  
-  width: 150px;
-  height: 250px;
-}
-.float_text {
-  left:0;
-  font-size: 2rem;
-  
-}
-.float_heading {
-  font-size: 1.5rem;
-}
+  .under__banner {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    max-width: 100%;
+  }
+  .under__img {
+    width: 150px;
+    height: 250px;
+  }
+  .float_text {
+    left: 0;
+    font-size: 2rem;
+  }
+  .float_heading {
+    font-size: 1.5rem;
+  }
 }
